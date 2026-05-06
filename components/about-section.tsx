@@ -6,8 +6,8 @@ import { Code2, Briefcase, Award } from "lucide-react"
 
 const stats = [
   { label: "Years Experience", value: "3", icon: Briefcase },
-  { label: "Projects Shipped", value: "15+", icon: Code2 },
-  { label: "Certifications", value: "6+", icon: Award },
+  { label: "Projects Shipped", value: "6+", icon: Code2 },
+  { label: "Certifications", value: "5", icon: Award },
 ]
 
 const highlights = [
