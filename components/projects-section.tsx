@@ -7,19 +7,20 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Effica CRM",
-    subtitle: "AI-Powered Enterprise Platform",
+    title: "Effica",
+    subtitle: "AI-Native Operating System for NDIS Providers",
     description:
-      "A SaaS-based multi-tenant AI-powered CRM platform designed to manage multiple business operations. Built core modules including HR, Super Admin, Intake & Onboarding, and Finance with scalable, responsive UI using React and Next.js. Backend powered by .NET for robust enterprise-grade performance.",
+      "Effica is an AI-native operating system designed exclusively for NDIS service providers in Australia. It combines ten integrated modules — including participant management, rostering, billing, compliance, and workforce tools — into a single platform powered by Effie, an intelligent AI assistant. Built core modules with scalable, responsive UI using React and Next.js. Backend powered by .NET for robust enterprise-grade performance.",
     highlights: [
-      "Integrated AI chatbot for intelligent user assistance and automated responses",
+      "Effie — an intelligent AI assistant powering the entire platform",
+      "10 integrated modules: participant management, rostering, billing, compliance, workforce & more",
       "Real-time chat system using SignalR with group chat, file sharing, emoji support, and live typing indicators",
       "Dynamic dashboards with real-time notifications and data visualization",
       "Optimized performance and complex state management for large enterprise datasets",
       "Awarded Employee of the Month for exceptional contributions to this project"
     ],
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", ".NET", "SignalR", "Redux", "REST API"],
-    demo: "#",
+    demo: "https://effica.com.au",
     icon: Bot,
     gradient: "from-primary/20 via-accent/10 to-primary/5",
     featured: true,
@@ -36,7 +37,7 @@ const projects = [
       "Efficient order assignment algorithms"
     ],
     techStack: ["React", "Redux", "Node.js", "Express", "MongoDB", "Google Maps API"],
-    demo: "#",
+    demo: "https://laundrygo-uat.24livehost.com/",
     icon: Truck,
     gradient: "from-accent/20 via-primary/10 to-accent/5",
     featured: true,
@@ -53,7 +54,7 @@ const projects = [
       "Scalable architecture for growth"
     ],
     techStack: ["React", "Node.js", "MongoDB", "Express", "Socket.io"],
-    demo: "#",
+    demo: "https://taskflight.dotsquares.com/",
     icon: CheckSquare,
     gradient: "from-chart-3/20 via-primary/10 to-chart-3/5",
     featured: true,
@@ -70,7 +71,7 @@ const projects = [
       "Budget-aware meal suggestions"
     ],
     techStack: ["React", "Node.js", "Express", "MongoDB"],
-    demo: "#",
+    demo: "https://admin.nutrakiddo.co.uk/",
     icon: Apple,
     gradient: "from-chart-4/20 via-accent/10 to-chart-4/5",
     featured: true,
