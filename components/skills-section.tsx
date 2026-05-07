@@ -9,8 +9,8 @@ const skillCategories = [
     skills: [
       { name: "React.js", level: 95 },
       { name: "Next.js", level: 92 },
-      { name: "TypeScript", level: 90 },
       { name: "JavaScript", level: 95 },
+      { name: "TypeScript", level: 90 },
       { name: "Tailwind CSS", level: 92 },
       { name: "Redux", level: 88 },
     ],
@@ -18,30 +18,47 @@ const skillCategories = [
   {
     title: "Backend & APIs",
     skills: [
-      { name: ".NET Integration", level: 85 },
-      { name: "REST APIs", level: 92 },
-      { name: "Node.js", level: 85 },
+      { name: "Node.js", level: 80 },
+      { name: "API Integration", level: 90 },
       { name: "SignalR", level: 82 },
-      { name: "Express.js", level: 83 },
-      { name: "Socket.io", level: 78 },
     ],
   },
   {
-    title: "Database",
+    title: "Databases",
     skills: [
+      { name: "MySQL", level: 70 },
       { name: "MongoDB", level: 70 },
-      { name: "MySQL", level: 75 },
-      { name: "PostgreSQL", level: 75 },
+       { name: "PostgreSQL", level: 72 },
     ],
   },
   {
-    title: "Tools & AI",
+    title: "Tools & Libraries",
     skills: [
-      { name: "Git & CI/CD", level: 90 },
-      { name: "Generative AI", level: 82 },
-      { name: "Agile/Scrum", level: 88 },
-      { name: "Figma", level: 78 },
-      { name: "Docker", level: 72 },
+      { name: "Framer Motion", level: 85 },
+      { name: "shadcn/ui", level: 88 },
+      { name: "Lucide", level: 85 },
+      { name: "GitHub", level: 90 },
+     { name: "Git & CI/CD", level: 90 },
+      
+
+    ],
+  },
+  {
+    title: "Deployment & Analytics",
+    skills: [
+      { name: "Vercel", level: 88 },
+      { name: "Facebook Pixel", level: 80 },
+      { name: "Microsoft Clarity", level: 82 },
+      { name: "Intercom", level: 78 },
+      { name: "Google Font API", level: 85 },
+    ],
+  },
+  {
+    title: "Other Skills",
+    skills: [
+      { name: "Requirements Gathering", level: 88 },
+      { name: "Problem Solving", level: 92 },
+      { name: "SDLC Understanding", level: 85 },
     ],
   },
 ]
@@ -152,7 +169,7 @@ export function SkillsSection() {
           >
             <p className="text-sm text-muted-foreground mb-6 font-mono">Technologies I work with</p>
             <div className="flex flex-wrap justify-center gap-4">
-              {["React", "Next.js", "TypeScript", "Node.js", "MongoDB", "Tailwind", "Redux", "Git"].map((tech, index) => (
+              {["React", "Next.js", "TypeScript", "Node.js", "Tailwind", "Vercel", "MongoDB", "GitHub"].map((tech, index) => (
                 <motion.div
                   key={tech}
                   whileHover={{ scale: 1.1, y: -4 }}
