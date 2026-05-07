@@ -62,7 +62,7 @@ export function AboutSection() {
                  3 years of experience specializing in <span className="text-primary font-medium">React.js</span>, 
                   <span className="text-primary font-medium"> Next.js</span>, 
                   <span className="text-primary font-medium"> TypeScript</span>, and enterprise-grade 
-                  <span className="text-primary font-medium"> .NET-backed platforms</span>. I architect scalable, 
+                  <span className="text-primary font-medium"> Node.js-backed platforms</span>. I architect scalable, 
                   high-performance web applications with a focus on clean code, optimal UX, and real-time capabilities.
                 </p>
 

@@ -242,7 +242,7 @@ export function HeroSection() {
       <DustCloud className="absolute bottom-[20%] left-[15%] w-[300px] h-[300px]" delay={1} />
       <DustCloud className="absolute top-[30%] right-[30%] w-[250px] h-[250px]" delay={0.5} />
       
-      {/* Cosmic orb (planet-like glow on the right) */}
+      {/* Cosmic orb (planet-like glow on the right) */}  
       <CosmicOrb />
 
       {/* Noise texture */}
