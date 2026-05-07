@@ -61,6 +61,14 @@ const skillCategories = [
       { name: "SDLC Understanding", level: 85 },
     ],
   },
+  {
+    title: "AI Tools",
+    skills: [
+      { name: "Lovable", level: 85 },
+      { name: "Supabase", level: 82 },
+      { name: "v0 by Vercel", level: 88 },
+    ],
+  },
 ]
 
 function SkillBar({ skill, index, isInView }: { skill: { name: string; level: number }; index: number; isInView: boolean }) {
@@ -169,7 +177,7 @@ export function SkillsSection() {
           >
             <p className="text-sm text-muted-foreground mb-6 font-mono">Technologies I work with</p>
             <div className="flex flex-wrap justify-center gap-4">
-              {["React", "Next.js", "TypeScript", "Node.js", "Tailwind", "Vercel", "MongoDB", "GitHub"].map((tech, index) => (
+              {["React", "Next.js", "TypeScript", "Node.js", "Tailwind", "Vercel", "MySQL", "GitHub"].map((tech, index) => (
                 <motion.div
                   key={tech}
                   whileHover={{ scale: 1.1, y: -4 }}

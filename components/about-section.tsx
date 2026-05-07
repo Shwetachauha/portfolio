@@ -76,7 +76,7 @@ export function AboutSection() {
 
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   I hold a <span className="text-foreground font-medium">Master of Technology</span> degree 
-                  from Singhania University and a <span className="text-foreground font-medium">Bachelor of Technology</span> from 
+                  from Singhania University and a <span className="text-foreground font-medium">Bachelor of Technology </span> from 
                   Abdul Kalam Technical University. I&apos;m also a Google Cloud certified <span className="text-primary font-medium">Generative AI Leader</span>, 
                   passionate about leveraging AI to build smarter, more intuitive applications.
                 </p>
