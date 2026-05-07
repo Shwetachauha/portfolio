@@ -20,7 +20,7 @@ const projects = [
       "Awarded Employee of the Month for exceptional contributions to this project"
     ],
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", ".NET", "SignalR", "Redux", "REST API"],
-    demo: "https://effica.com.au",
+    demo: "https://effica.com.au/",
     icon: Bot,
     gradient: "from-primary/20 via-accent/10 to-primary/5",
     featured: true,
